@@ -1,0 +1,9 @@
+<mat-card>
+    <mat-form-field class="example-full-width">
+        <input matInput placeholder="email" type="email" [(ngModel)]="loginData.email">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+          <input matInput placeholder="email" type="password" [(ngModel)]="loginData.password">
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="login()">Login</button>
+</mat-card>
